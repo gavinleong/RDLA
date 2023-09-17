@@ -26,3 +26,6 @@ make
 Run the compiled application
 
 ./dlaf
+
+Acknowledgements:
+Jason Webb for the base DLA implementation: https://web.archive.org/web/20210822065831/https://github.com/jasonwebb/dlaf-with-models
