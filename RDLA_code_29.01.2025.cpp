@@ -126,7 +126,7 @@ const double DefaultBoundingRadius = 0.01;
 const double DefaultConeAngleDegree = 45.0;
 // DefaultConeReductionRate is between 0 to 1, where 0 is slow cone reduction rate and 1 is
 // fast cone reduction rate. A slow cone reduction means the DLA structure can bend and curl
-// for more generations before it ìdecidesî on a direction. Fast means the DLA structure 
+// for more generations before it ‚Äúdecides‚Äù on a direction. Fast means the DLA structure 
 // chooses direction in fewer generations, resulting in perhaps more angular DLA, less bending.
 const double DefaultConeReductionRate = 0.2;
 // DistanceDiffusionStarts is a double between 0.0 and 1.0, where the smaller the number,
@@ -670,7 +670,7 @@ std::string to_string_with_precision(const T a_value, const int n = 1)
 
 // IsIntersectingFace checks for intersection of a ray (O) with random direction (D) and a triangle face defined by vertices V1, V2, and V3
 // Adapted from Amnon Owed's ofxPointInMesh::triangleIntersection: https://github.com/AmnonOwed/ofxPointInMesh
-// Uses MˆllerñTrumbore: http://en.wikipedia.org/wiki/M%C3%B6ller%E2%80%93Trumbore_intersection_algorithm
+// Uses M√∂ller‚ÄìTrumbore: http://en.wikipedia.org/wiki/M%C3%B6ller%E2%80%93Trumbore_intersection_algorithm
 bool IsIntersectingFace(const Vector& V1, const Vector& V2, const Vector& V3, const Vector& O, const Vector& D, Vector& R) {
     Vector e1, e2; // Edge1, Edge2
     Vector P, Q, T;
